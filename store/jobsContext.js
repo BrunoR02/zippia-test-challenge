@@ -1,4 +1,4 @@
-import { createContext, useState } from "react";
+import { createContext, useCallback, useState } from "react";
 
 const JobsContext = createContext({
   jobsList: [],
@@ -17,9 +17,11 @@ export function JobsContextProvider({children}){
     return uniqueList
   }
 
+  const storeJobsList = useCallback((list) => {setJobsList(list)},[])
+
   const context = {
     jobsList,
-    storeJobsList: (list) => {setJobsList(list)},
+    storeJobsList,
     getCompanyList,
   }
 

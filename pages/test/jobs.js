@@ -15,7 +15,7 @@ export default function JobsPage({originalList,filteredList}){
   useEffect(()=>{
     //Store List for further use on React Context
     storeJobsList(originalList)
-  },[])
+  },[originalList,storeJobsList])
 
   return (
     <>

@@ -27,7 +27,7 @@ export default function RecentFilter(){
       }
       
     }
-  },[isRecent])
+  },[isRecent, query.companyList, query.recent, router])
 
   return (
     <select className={styles.select} name="Date" id="date" onChange={(e)=>setIsRecent(!!parseInt(e.target.value))}>
