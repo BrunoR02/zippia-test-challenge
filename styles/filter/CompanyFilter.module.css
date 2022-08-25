@@ -1,0 +1,20 @@
+.dropdown{
+  position: absolute;
+  top: 50px;
+  border-radius: 10px;
+  background-color: #eee;
+  z-index: 3;
+}
+
+.list{
+  display: flex;
+  max-width: 300px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.item{
+  width: 30%;
+  margin: 10px;
+}

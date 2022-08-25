@@ -1,0 +1,21 @@
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.button{
+  margin-right: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  font-weight: 700;
+  color: #eee;
+  background-color: #11a2a2;
+  cursor: pointer;
+  z-index: 3;
+}
