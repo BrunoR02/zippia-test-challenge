@@ -27,7 +27,7 @@ export default function CompanyFilter(){
     } else if(query.companyList){
       router.push("")
     }
-  },[activeCompanies, query.recent, query.companyList, router])
+  },[activeCompanies, query.recent, query.companyList])
 
   return (
     <div className={styles.dropdown}>

@@ -9,7 +9,6 @@ export default function RecentFilter(){
 
   let query = router.query
 
-
   useEffect(()=>{
     //Set Params to URL to send back to the jobList page and get the filtered companyNames
     if(isRecent) {
@@ -27,7 +26,7 @@ export default function RecentFilter(){
       }
       
     }
-  },[isRecent, query.companyList, query.recent, router])
+  },[isRecent, query.companyList, query.recent])
 
   return (
     <select className={styles.select} name="Date" id="date" onChange={(e)=>setIsRecent(!!parseInt(e.target.value))}>
