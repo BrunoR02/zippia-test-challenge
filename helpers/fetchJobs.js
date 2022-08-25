@@ -1,6 +1,6 @@
 
 export default async function fetchJobs(requestBody){
-  const URL = "https://zippia-test-challenge.vercel.app" // LOCAL: http://localhost:3000
+  const URL = "http://localhost:3000" // LOCAL: https://zippia-test-challenge.vercel.app
 
   const response = await fetch(URL + "/api/jobs/",{
     method: "POST",
