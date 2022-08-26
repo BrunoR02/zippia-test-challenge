@@ -1,4 +1,4 @@
-## WEBSITE LIVE [Vercel]: https://zippia-test-challenge.vercel.app/
+### WEBSITE LIVE [Vercel]: https://zippia-test-challenge.vercel.app/
 
 ## Screenshots
 <div style="display: flex, margin: 20px">
